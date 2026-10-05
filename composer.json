@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/lcobucci-clock",
+    "description": "Tyhp type definitions for lcobucci/clock 3.6.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "3.6.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/lcobucci-clock-impl": "~3.6.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/lcobucci-clock-impl"
+        }
+    }
+}
